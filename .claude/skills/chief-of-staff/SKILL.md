@@ -52,5 +52,6 @@ When the user responds to a briefing, record durable feedback in `memory/` so to
 
 - Something they want remembered or done differently ("always show MRR", "Sarah is my cofounder") → append to `memory/preferences.md`.
 - Something they don't care about ("stop showing GitHub notifications") → append to `memory/ignored.md`.
+- A week plan they approve, or progress they report against it → `memory/plan.md`.
 
 One dated line per entry: `- 2026-01-15: <what to do>`. If a new entry contradicts an older one, replace the older one. Don't record one-off requests ("make today's shorter").
