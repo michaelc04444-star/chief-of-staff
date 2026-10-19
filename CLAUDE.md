@@ -63,3 +63,14 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 ---
 
 **These guidelines are working if:** fewer unnecessary changes in diffs, fewer rewrites due to overcomplication, and clarifying questions come before implementation rather than after mistakes.
+
+---
+
+## Chief-of-Staff Agent
+
+This project is a chief-of-staff agent that writes my daily briefing.
+
+- `constitution.md`: who I am, my priorities, what to ignore, and the briefing format and tone.
+- `.claude/skills/chief-of-staff/SKILL.md`: the briefing workflow. Run it with `/chief-of-staff`.
+- `memory/`: what the agent has learned from my feedback. Read it before every briefing and update it when I give feedback.
+- `.mcp.json`: MCP servers for tasks (Notion, Linear). Gmail and Google Calendar come from claude.ai connectors.
